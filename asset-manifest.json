@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/eventhandlers/static/css/main.a8461ad4.css",
+    "main.js": "/eventhandlers/static/js/main.f79c0599.js",
+    "index.html": "/eventhandlers/index.html",
+    "main.a8461ad4.css.map": "/eventhandlers/static/css/main.a8461ad4.css.map",
+    "main.f79c0599.js.map": "/eventhandlers/static/js/main.f79c0599.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8461ad4.css",
+    "static/js/main.f79c0599.js"
+  ]
+}
