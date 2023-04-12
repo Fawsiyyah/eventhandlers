@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main {
+  background: linear-gradient(rgb(241,80,107), yellow);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input {
+  min-width: 50vw;
+  padding: 20px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  margin: 30px 450px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.users, .d-flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.users {
+  padding: 30px 450px;
+  margin-right: 100px;
+}
+
+/* .usergroup {
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+  height: 90vh;
+  align-items: center;
+  top: 56%;
+  left: 50%;
+  position: absolute;
+  padding: 0px 15px;
+  transform: translate(-50%, -50%);
+  justify-content: space-evenly;
+} */
+
+.usergroup {
+  display: grid;
+  grid-template-columns: 550px 50px;
+   grid-auto-flow: row;
+  grid-auto-rows: 150px;
+  /*grid-gap: 5px;
+  overflow: auto; */
+}
+
+.user-text {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-start;
+  padding-left: 20px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.d-flex {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
 }
